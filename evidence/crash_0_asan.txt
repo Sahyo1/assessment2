@@ -1,0 +1,15 @@
+
+ WAVPACK  Hybrid Lossless Audio Compressor  Linux Version 5.1.0
+ Copyright (c) 1998 - 2017 David Bryant.  All Rights Reserved.
+
+creating /tmp/x.wv,=================================================================
+==75054==ERROR: AddressSanitizer: requested allocation size 0xfffffffff4199618 (0xfffffffff419a618 after adjustments for alignment, red zones etc.) exceeds maximum supported size of 0x10000000000 (thread T0)
+    #0 0x76612a734808 in __interceptor_malloc ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144
+    #1 0x5cc9099035e9 in ParseRiffHeaderConfig /home/fuzzer/WavPack/cli/riff.c:289
+    #2 0x5cc9098ffebf in pack_file /home/fuzzer/WavPack/cli/wavpack.c:1776
+    #3 0x5cc9098da5d5 in main /home/fuzzer/WavPack/cli/wavpack.c:1272
+    #4 0x76612a033082 in __libc_start_main ../csu/libc-start.c:308
+
+==75054==HINT: if you don't care about these errors you may set allocator_may_return_null=1
+SUMMARY: AddressSanitizer: allocation-size-too-big ../../../../src/libsanitizer/asan/asan_malloc_linux.cc:144 in __interceptor_malloc
+==75054==ABORTING
