@@ -24,13 +24,13 @@ Two campaigns were run in parallel:
 
 
 
-\- \*\*Encoder campaign:\*\* AFLsmart against `wavpack` (the encoder CLI), using
+\- \Encoder campaign:\*\* AFLsmart against `wavpack` (the encoder CLI), using
 
 &#x20; the WAV Peach Pit and dictionary in this repo.
 
 
 
-\- \*\*Decoder campaign:\*\* AFL-style fuzzing against `wvunpack` (the decoder
+\- Decoder campaign:\*\* AFL-style fuzzing against `wvunpack` (the decoder
 
 &#x20; CLI), using `.wv` seeds generated from the same source WAV files. This
 
