@@ -172,7 +172,22 @@ are in the written report.
 
 **AI use declaration**
 
-\[I acknowledge the use of Claude (Anthropic) during the preparation of this assessment. I used Claude to assist with setting up the assignment and planning out what tasks were needed to be done. I also used it to figure out why certain commands were not working and why the AFLsmart tool was not executing as fast as it should have been. This was also used in aid for my report writing, as I had lots of screenshots and commands to put into the report, so the AI assisted me in keeping my evidence in order, to make it easier for me to insert it into my report. A record of prompts and outputs is available upon request.]
+\[I acknowledge the use of Claude (Anthropic) during the preparation of this assessment.
+I used Claude to assist with setting up the assignment and planning out what tasks were needed to be done.
+I also used it to figure out why certain commands were not working and why
+the AFLsmart tool was not executing as fast as it should have been.
+This was also used in aid for my report writing,
+as I had lots of screenshots and commands to put into the report,
+so the AI assisted me in keeping my evidence in order, to make it
+easier for me to insert it into my report. A record of prompts and outputs is available upon request.]
+
+Research References
+https://github.com/aflsmart/aflsmart (AFLsmart, n.d.)
+https://github.com/AFLplusplus/AFLplusplus  (AFLplusplus, n.d.)
+https://peachtech.gitlab.io/peach-fuzzer-community/v3/PeachQuickStart.html(Peach Tech, 2021) 
+https://www.wavpack.com/WavPack5FileFormat.pdf  (Bryant, 2020)
+https://www.first.org/cvss/calculator/3.1 (Forum of Incident Response and Security Teams, n.d.)
+https://clang.llvm.org/docs/AddressSanitizer.html (The Clang Team, n.d.)
 
 
 
